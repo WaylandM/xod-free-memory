@@ -1,0 +1,39 @@
+{
+  "description": "Measure free Static Random Access Memory (SRAM).",
+  "nodes": [
+    {
+      "id": "HJyJoTtpK",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "Continuously"
+      },
+      "description": "Update. Trigger measurement of free SRAM.",
+      "id": "B1JtaTtpt",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Available SRAM in bytes.",
+      "id": "BJssTaFTt",
+      "label": "SRAM",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/output-number"
+    }
+  ]
+}
