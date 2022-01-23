@@ -1,6 +1,6 @@
 {
-  "description": "Node for measuring the amount of free Static Random Access Memory (SRAM). Based on https://github.com/mpflaga/Arduino-MemoryFree\n\nFor more information on getting the most from your Arduino memory, see: https://learn.adafruit.com/memories-of-an-arduino",
+  "description": "Node for measuring the amount of free Static Random Access Memory (SRAM). Based on https://github.com/mpflaga/Arduino-MemoryFree. For more information on getting the most from your Arduino memory, see: https://learn.adafruit.com/memories-of-an-arduino.",
   "license": "MIT",
   "name": "memory-free",
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
