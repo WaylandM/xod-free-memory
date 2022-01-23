@@ -1,4 +1,4 @@
-# xod-free-memory
+# xod-memory-free
 XOD library for measuring free RAM. 
 
 Based on https://github.com/mpflaga/Arduino-MemoryFree
